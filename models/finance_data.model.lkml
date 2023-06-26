@@ -11,7 +11,7 @@ datagroup: finance_data_default_datagroup {
 persist_with: finance_data_default_datagroup
 
 explore: irs_990_2012 {}
-
+explore: cfips_location {}
 explore: irs_990_2013 {}
 
 explore: irs_990_ein {}
