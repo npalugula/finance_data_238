@@ -59,7 +59,6 @@ view: cfips_location {
     type: number
     value_format_name: decimal_2
     label:"is_cfips_over_50000_number"
-    hidden: yes
     sql: case  when ${TABLE}.cfips > 50000 then 75000 else 35000 end ;;
     link:
     {
