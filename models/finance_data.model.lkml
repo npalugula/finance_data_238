@@ -47,3 +47,5 @@ explore: irs_990_pf_2016 {}
 explore: irs_990_pf_2013 {}
 
 explore: irs_990_pf_2015 {}
+
+explore: cfips_location_persistent {}
