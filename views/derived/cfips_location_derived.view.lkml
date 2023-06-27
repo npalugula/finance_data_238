@@ -13,7 +13,7 @@ view: cfips_location_derived {
     SELECT t.name, t.latitude, t.longitude, t.cfips
         FROM ${cfips_location_persistent.SQL_TABLE_NAME} AS t
     WHERE t.cfips > 0
-    GROUP BY 1;;
+    GROUP BY 1, 2, 3, 4;;
   }
 
   dimension: name {
